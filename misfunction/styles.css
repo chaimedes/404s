@@ -1,0 +1,40 @@
+body {
+	margin: 0px;
+	font-family: "Arial", sans-serif;
+	color: #fff;
+	background: #343451;
+}
+a {
+	color: #aac;
+}
+h1, h2{
+	text-align: center;
+}
+#main h1 {
+	font-size: 3.5em;
+}
+#banner {
+	background: url('glass.jpg');
+	background-size: 150% auto;
+    background-repeat: no-repeat;
+	background-position: -242px -380px;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	font-size: 4em;
+	font-weight: 600;
+	text-indent: 0.7em;
+}
+#text {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #58e3ff80;
+	letter-spacing: 0.7em;
+}
+@media (max-width: 1024px) {
+	#banner {
+		background-position: -90px -60px;
+		height: 200px;
+	}
+}
